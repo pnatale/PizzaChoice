@@ -1,0 +1,204 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #edf2f4;
+}
+
+.navbar img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+    background-color: #e41035;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 17px;
+}
+
+.naviga{
+    list-style-type: none;
+}
+
+.naviga a{
+    color: #edf2f4;
+    font-family: 'Roboto', sans-serif;
+}
+
+.naviga .menu{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.naviga a:hover{
+    color: #016493;
+}
+
+.titolo{
+    color: #016493;
+    font-size: 50px;
+    text-align: center;
+    padding: 25px 10px;
+    margin: 25px 0px 50px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.pizze{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+}
+
+.pizze h3{
+    color: #016493;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Ms Madi', cursive;
+}
+
+.pizze img{
+    width: 225px;
+    height: 250px;
+}
+
+.h2_pizza_titolo{
+    font-size: 35px;
+    text-align: center;
+    padding: 25px 20px;
+    background: #e41035;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 25px;
+    color: #edf2f4;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+    /* desktop */
+    @media (min-width: 992px) { 
+
+        .pizze h3{
+            margin-top: 90px;
+            font-family: 'Ms Madi', cursive;
+        }
+    
+    }
+
+        /* tablet */
+        @media (min-width: 600px) { 
+            .pizze h3{
+                margin-top: 75px;
+                font-family: 'Ms Madi', cursive;
+            }
+        
+        }
+    
+        /* phone */
+        @media (max-width: 600px) { 
+            .pizze h3{
+                margin-top: 35px;
+                font-family: 'Ms Madi', cursive;
+            }        
+        }
+
+
+.pizza_page .h2_pizza_titolo{
+    margin-top: 45px;
+}
+
+.pizza_page .margherita{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+}
+
+
+.ingredienti .lista-ingredienti{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    color: #e41035;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#chi-siamo{
+    margin: 35px;
+}
+
+#chi-siamo h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 25px 20px;
+    background: #e41035;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 25px;
+    color: #edf2f4;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#chi-siamo p{
+    margin: 15px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#contattaci{
+    margin: 35px;
+}
+
+#contattaci h2{
+    font-size: 35px;
+    text-align: center;
+    padding: 25px 20px;
+    background: #e41035;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    border-radius: 25px;
+    color: #edf2f4;
+    font-family: 'Roboto', sans-serif;
+}
+#contattaci h3{
+    text-align: center;
+    font-size: 30px;
+    color: #016493;
+    margin: 45px 10px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact-a{
+    color: #e41035;
+    font-size: 25px;
+    
+}
+
+#contact-a:hover{
+    color: #016493;
+}
+.contattaci_flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 25px 10px;
+}

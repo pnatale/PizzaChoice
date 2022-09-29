@@ -1,0 +1,106 @@
+<!-- 
+    Creare un piccolo sito per una pizzeria :
+
+- nella home devono esserci 4 box che illustrano altrettante tipologie di pizze, ogni box deve avere un’immagine rappresentativa con il nome della pizza scritto sopra l’immagine
+- scaricare le immagine appropriate dal sito pexel, e salvarle nella propria cartella di lavoro affinché si possano usare nelle pagine
+- ogni box deve essere collegato a una pagina che contenga gli ingredienti del prodotto ed eventualmente ulteriori foto illustrative
+- avvalersi delle flexbox
+- utilizzare 2 font scelti da Google Font
+-->
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pietro's Pizza</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <a href="./index.html"><img src="./assets/logo.png" alt="Pizzeria"></a>
+        </div>
+        <ul class="naviga">
+            <li class="menu">
+                <a href="./index.html#pizze">Pizze</a>
+            </li>
+            <li class="menu">
+                <a href="./index.html#chi-siamo">Chi Siamo</a>
+            </li>
+            <li class="menu">
+                <a href="./index.html#contattaci">Contattaci</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="titolo">
+        Pietro's Pizza
+    </h1>
+
+    <div id="pizze">
+        <h2 class="h2_pizza_titolo">
+            Le nostre pizze
+        </h2>
+        <div class="pizze">
+            <div class="margherita">
+                <h3>Margherita</h3>
+                <a href="margherita.html"><img src="./assets/margherita_new.png" alt="Pizza Margherita"></a>
+            </div>
+
+            <div class="diavola">
+                <h3>Diavola</h3>
+                <a href="diavola.html"><img src="./assets/diavola_new.png" alt="Pizza Diavola"></a>
+            </div>
+
+            <div class="patate">
+                <h3>Patate</h3>
+                <a href="patate.html"><img src="./assets/patate_new.png" alt="Pizza Patate"></a>
+            </div>
+
+            <div class="marinara">
+                <h3>Marinara</h3>
+                <a href="marinara.html"><img src="./assets/marinara_new.png" alt="Pizza Marinara"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="chi-siamo">
+        <h2>Chi Siamo</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet sed doloribus optio aliquid dolor iusto a at impedit obcaecati libero repudiandae animi, atque inventore odio quibusdam similique facere eligendi asperiores illo. Reiciendis, officia? Illo incidunt repellat, iste molestiae, tempore velit quos excepturi est obcaecati placeat ullam id dolor, autem esse explicabo doloremque odio sit quas. Inventore fuga porro, fugiat enim soluta neque adipisci minima voluptas! Sequi, explicabo vero saepe error eum aut earum iure doloribus, velit nihil aliquam tempora. Doloremque saepe non deserunt, libero doloribus similique minus magni. Rerum libero, vitae recusandae quo sunt perspiciatis culpa eveniet provident ducimus nostrum ipsum nemo autem maxime similique quae qui laboriosam nobis quas illo perferendis veniam est enim mollitia labore. Veritatis asperiores laboriosam, eos, aperiam animi cum omnis, fuga accusamus eligendi architecto accusantium. Ab iure dicta dignissimos sapiente nesciunt excepturi quis natus, vero, saepe architecto aliquam quidem, distinctio eveniet explicabo nulla aut sint quia. Earum doloremque harum aliquid tenetur aliquam perferendis tempore, dolorem sit officia molestiae architecto, dolorum delectus officiis aut error magnam voluptatibus doloribus vitae laborum! Illum enim omnis voluptate, corrupti magni labore, adipisci quia velit quisquam, fugit repudiandae. Nobis illum eveniet dolores, soluta provident error at, tempora fugit optio, eum saepe id voluptatem enim minima amet eos ipsa iste. Suscipit officiis ullam vero repudiandae nihil excepturi minima adipisci veritatis necessitatibus rerum dolor, fugit ad aspernatur natus deleniti distinctio autem voluptate nulla inventore ipsum a. Error culpa sit libero quasi? Nemo pariatur illo, sint iste fuga numquam doloremque provident reprehenderit, debitis dolorem, eos autem eveniet nisi incidunt praesentium quaerat. Reiciendis modi sapiente sequi eum quam, vel odio ut facilis, voluptate veritatis tempore! Debitis laboriosam recusandae assumenda voluptatem ipsum quia, modi ea ducimus voluptate fugiat cupiditate dolor eveniet odit porro minima adipisci et odio rem optio aperiam. Natus accusamus totam eum consequatur repellat?
+        </p>
+    </div>
+
+    <div id="contattaci">
+        <h2>Contattaci</h3>
+        <h3>Di seguito troverai tutti i nostri riferimenti</h3>
+        <div class="contattaci_flex">
+            <div class="tel">
+
+                <a href="tel:1234567890"><img src="./assets/tel.png" alt="Telefono"></a>
+            </div>
+
+            <div class="email">
+
+                <a href="mailto:mail@prova.it"><img src="./assets/email.png" alt="eMail"></a>
+            </div>
+
+            <div class="indirizzo">
+
+                <a target="_blank" href="https://bit.ly/3riS3sM"><img src="./assets/indirizzo.png" alt="Indirizzo"></a>
+            </div>
+
+            <div class="social">
+
+                <a target="_blank" href="https://www.instagram.com/"><img src="./assets/social.png" alt="Social"></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
