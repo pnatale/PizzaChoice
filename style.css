@@ -202,3 +202,28 @@ a{
     flex-wrap: wrap;
     padding: 25px 10px;
 }
+
+.container {
+    margin-top: 75px !important;
+}
+
+.img-header{
+    width: 90px;
+    height: 90px;
+}
+
+.titolo-head-col{
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.titolo-centrato{
+    margin-top: 75px !important;
+}
+
+
+@media (max-width: 767px) {
+    .padding-contatti{
+        padding: 20px;
+    }
+}
